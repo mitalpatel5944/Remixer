@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.organic"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:4:4-5:58
+13-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:5:1-56
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:6:1-7:59
+14-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:7:1-57
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/macos20/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/macos20/.gradle/caches/transforms-3/1de5dee59d1627955e42d3d6205f726e/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+16
+17    <application
+17-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:9:5-28:19
+18        android:name="com.organic.MainApplication"
+18-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:10:7-38
+19        android:allowBackup="false"
+19-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:14:7-34
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/macos20/.gradle/caches/transforms-3/3994986e4b6f29f228dfe8fb9122f0d7/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:12:7-41
+23        android:label="@string/app_name"
+23-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:11:7-39
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:13:7-52
+25        android:theme="@style/AppTheme"
+25-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:15:7-38
+26        android:usesCleartextTraffic="true" >
+26-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/debug/AndroidManifest.xml:8:9-44
+27        <activity
+27-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/debug/AndroidManifest.xml:11:9-111
+28            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+28-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/debug/AndroidManifest.xml:11:19-83
+29            android:exported="false" />
+29-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/debug/AndroidManifest.xml:11:84-108
+30        <activity
+30-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:16:7-27:18
+31            android:name="com.organic.MainActivity"
+31-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:17:9-37
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+32-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:19:9-118
+33            android:exported="true"
+33-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:22:9-32
+34            android:label="@string/app_name"
+34-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:18:9-41
+35            android:launchMode="singleTask"
+35-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:20:9-40
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:21:9-51
+37            <intent-filter>
+37-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:23:9-26:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:24:13-65
+38-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:24:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:25:13-73
+40-->/Users/macos20/Documents/Himanshu/Demo/Organic/android/app/src/main/AndroidManifest.xml:25:23-70
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/macos20/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/macos20/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+46            android:authorities="com.organic.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/macos20/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/macos20/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/macos20/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/macos20/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/macos20/.gradle/caches/transforms-3/c1cd3487ee93faa69a46c921c06f102e/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macos20/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macos20/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/macos20/.gradle/caches/transforms-3/afe3a0cc82c76a7c864d2efd8324d92e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>
